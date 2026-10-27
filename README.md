@@ -97,3 +97,13 @@ The full list of installed packages is available in packages.txt.
 👉 [https://github.com/sazi48/MyLinuxArch-Green-](https://github.com/sazi48/MyLinuxArch-Green-)
 ### Если вы решите отредактировать конфигурационные файлы и что-то пойдёт не так, вы всегда сможете вернуться к этим исходным версиям.  
 👉 [https://github.com/sazi48/MyLinuxArch-Green-](https://github.com/sazi48/MyLinuxArch-Green-)
+
+If you liked my theme, give it a like / Если вам понравилась моя тема, поставьте лайк.
+
+And follow me on social media / И подписывайтесь на меня в социальных сетях:
+
+- YouTube: https://www.youtube.com/@PingVinITofficial
+
+- GitHub: https://github.com/sazi48
+
+- Telegram: https://t.me/PingVinITofficial
