@@ -39,31 +39,39 @@ The theme is designed in dark green tones.
 ### English
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sazi48/my-hyprland.git
+   git clone https://github.com/sazi48/MyLinuxArch-Green-.git
+   ```
+   
+2. Go to it:
+   ```bash
    cd my-hyprland
    ```
-
-2. Run the automated installer:
+   
+3. Run the automated installer:
    ```bash
    ./install.sh
    ```
 
-3. The script will automatically install all packages (including AUR), copy the configurations, and prompt you to reboot.
+4. The script will automatically install all packages (including AUR), copy the configurations, and prompt you to reboot.
 
 ### Русский
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/sazi48/my-hyprland.git
+   git clone https://github.com/sazi48/MyLinuxArch-Green-.git
+   ```
+   
+2. Перейдите в него:
+   ```bash
    cd my-hyprland
    ```
-
-2. Запустите автоматический установщик:
+   
+3. Запустите автоматический установщик:
    ```bash
    ./install.sh
    ```
-
-3. Скрипт сам установит все пакеты (включая AUR), скопирует конфиги и предложит перезагрузить компьютер.
+   
+4. Скрипт сам установит все пакеты (включая AUR), скопирует конфиги и предложит перезагрузить компьютер.
 
 
 ## ⌨️ Keybindings / Горячие клавиши
