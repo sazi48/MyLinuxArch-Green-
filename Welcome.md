@@ -12,11 +12,11 @@ If you liked my theme, give it a like.
 
 And follow me on social media:
 
-YouTube: https://www.youtube.com/@PingVinITofficial
+- YouTube: https://www.youtube.com/@PingVinITofficial
 
-GitHub: https://github.com/sazi48
+- GitHub: https://github.com/sazi48
 
-Telegram: https://t.me/PingVinITofficial
+- Telegram: https://t.me/PingVinITofficial
 
 # 🟢 Добро пожаловать в твой Hyprland!
 
@@ -33,11 +33,11 @@ Telegram: https://t.me/PingVinITofficial
 
 А также подпишись на мои социальные сети:
 
-YouTube: https://www.youtube.com/@PingVinITofficial
+- YouTube: https://www.youtube.com/@PingVinITofficial
 
-GitHub: https://github.com/sazi48
+- GitHub: https://github.com/sazi48
 
-Telegram: https://t.me/PingVinITofficial
+- Telegram: https://t.me/PingVinITofficial
 
 ## 💡 Tips / Полезные пометки
 
