@@ -11,7 +11,7 @@ The theme is designed in dark green tones.
 Тема оформления выдержана в темно-зеленых тонах.
 
 
-![Screenshot](assets/desktop.png)
+![Screenshot](assets/house.jpg)
 
 
 ## 🛠️ Components / Компоненты
