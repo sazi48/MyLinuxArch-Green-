@@ -42,6 +42,7 @@ Telegram: https://t.me/PingVinITofficial
 *   **Wallpapers / Обои:** Stored in `~/Pictures/Wallpaper/`, applied automatically.
 
 ## 🔗 GitHub:
-### If you decide to edit the configuration files and something goes wrong, you can always revert to these original versions. 👉 [https://github.com/sazi48/MyLinuxArch-Green-](https://github.com/sazi48/MyLinuxArch-Green-)
-### Если вы решите отредактировать конфигурационные файлы и что-то пойдёт не так, вы всегда сможете вернуться к этим исходным версиям.  👉 [https://github.com/sazi48/MyLinuxArch-Green-](https://github.com/sazi48/MyLinuxArch-Green-)
-
+### If you decide to edit the configuration files and something goes wrong, you can always revert to these original versions. 
+👉 [https://github.com/sazi48/MyLinuxArch-Green-](https://github.com/sazi48/MyLinuxArch-Green-)
+### Если вы решите отредактировать конфигурационные файлы и что-то пойдёт не так, вы всегда сможете вернуться к этим исходным версиям.  
+👉 [https://github.com/sazi48/MyLinuxArch-Green-](https://github.com/sazi48/MyLinuxArch-Green-)
