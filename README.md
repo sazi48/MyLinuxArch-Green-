@@ -10,9 +10,17 @@ The theme is designed in dark green tones.
 Персональная конфигурация Arch Linux с оконным менеджером Hyprland. 
 Тема оформления выдержана в темно-зеленых тонах.
 
+---
 
-![Screenshot](assets/house.jpg)
+![Screenshot1](Wallpaper/Desktop.jpg)
+*Чистый и стильный рабочий стол с панелью Waybar и зелеными обоями.*
+*A clean and stylish desktop with Waybar and green wallpaper.*
 
+![Screenshot2](Wallpaper/PowerMenu.jpg)
+*Стильное кастомное меню выключения с иконками в тон темы.*
+*Stylish custom power menu with theme-matching icons.*
+
+---
 
 ## 🛠️ Components / Компоненты
 
@@ -75,3 +83,12 @@ The theme is designed in dark green tones.
 The full list of installed packages is available in packages.txt.
 
 Полный список установленных пакетов находится в файле packages.txt.
+
+## 💡 Tips / Полезные пометки
+
+*   **Shell / Оболочка:** Fish. Config: `~/.config/fish/config.fish`.
+*   **Bar / Панель:** Waybar. Config: `~/.config/waybar/config`, Styles: `style.css`.
+*   **Wallpapers / Обои:** Stored in `~/Pictures/Wallpaper/`, applied automatically.
+
+## 🔗 GitHub
+👉 [https://github.com/sazi48/MyLinuxArch-Green-](https://github.com/sazi48/MyLinuxArch-Green-)
