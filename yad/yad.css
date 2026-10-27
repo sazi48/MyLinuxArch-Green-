@@ -1,0 +1,43 @@
+window {
+    background-color: #141914;
+    border: 2px solid #2ecc71;
+    border-radius: 15px;
+}
+
+label {
+    color: #2ecc71;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: #1e241e;
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+button:hover label, 
+button:hover image, 
+button:hover * {
+    color: #141914;
+}
+
+button:active {
+    background-color: #27ae60;
+}
+button:active label, 
+button:active image, 
+button:active * {
+    color: #141914;
+}

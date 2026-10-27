@@ -1,0 +1,131 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", "sans-serif";
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: #ffffff;
+}
+
+window#waybar > box {
+    background: rgba(20, 25, 20, 0.85);
+    border-radius: 15px;
+    border: 2px solid rgba(46, 204, 113, 0.5);
+    margin: 5px 10px 0px 10px; 
+}
+
+
+#workspaces button {
+    padding: 0 8px;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 8px;
+    margin: 4px 2px;
+}
+
+#workspaces button.active {
+    color: #2ecc71;
+    background: rgba(46, 204, 113, 0.2);
+    font-weight: bold;
+}
+
+#workspaces button:hover {
+    color: #2ecc71;
+    background: rgba(46, 204, 113, 0.1);
+}
+
+
+#window { color: #a0a0a0; font-size: 13px; padding-left: 10px; }
+
+
+#clock, #battery {
+    color: #2ecc71;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+#hyprland-language, #language, #language label {
+    color: #2ecc71;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+#pulseaudio, #network, #cpu, #memory, #temperature, #tray { padding: 0 10px; }
+#custom-separator { color: #444444; font-size: 16px; padding: 0 5px; }
+#custom-power { font-size: 18px; color: #e74c3c; padding: 0 15px; }
+#custom-power:hover { color: #ff6b6b; }
+
+#bluetooth, #mpris {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+#bluetooth.connected {
+    color: #2ecc71;
+}
+
+#mpris {
+    color: #2ecc71;
+}
+#bluetooth.off, #bluetooth.disabled {
+    color: #e74c3c;
+}
+
+#custom-backlight {
+    padding: 0 10px;
+    color: #ffffff;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+}
+
+#custom-backlight {
+    padding: 0 10px;
+    color: #ffffff;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", sans-serif;
+}	
+
+
+#bluetooth.connected {
+    color: #2ecc71;
+}
+
+#bluetooth.on {
+    color: #ffffff;
+}
+#bluetooth.on, #bluetooth.connected {
+    color: #2ecc71;
+}	
+
+#backlight {
+    padding: 0 10px;
+    color: #ffffff;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+}
+
+#tray {
+    padding: 0 10px;
+    color: #ffffff;
+}
+#tray menu {
+    background-color: #141914;
+    border: 2px solid #2ecc71;
+    border-radius: 10px;
+}	
+
+/* =========================================
+   NETWORK STATUS (Wi-Fi Colors)
+   ========================================= */
+
+
+#network {
+    color: #2ecc71;
+}
+
+
+#network.disconnected {
+    color: #e74c3c;
+    font-weight: bold;
+}

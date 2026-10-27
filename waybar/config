@@ -1,0 +1,105 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 0,
+    "modules-left": ["hyprland/workspaces", "custom/separator", "hyprland/window"],
+    "modules-center": ["clock", "battery"],
+    "modules-right": ["bluetooth", "mpris", "pulseaudio", "backlight", "network", "cpu", "memory", "temperature", "tray", "hyprland/language", "custom/power"],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "all-outputs": true,
+        "persistent-workspaces": { "*": 5 },
+        "format-icons": {
+            "1": "1", "2": "2", "3": "3", "4": "4", "5": "5",
+            "active": "●",
+            "default": "○"
+        },
+        "on-click": "activate"
+    },
+    "hyprland/window": { "max-length": 40, "separate-outputs": true },
+    
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "interval": 1,
+        "on-click": "~/.config/waybar/scripts/calender.sh"
+    },
+    
+    "battery": {
+        "states": { "warning": 30, "critical": 15 },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "{timeTo} ({capacity}%)"
+    },
+    
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "EN",
+        "format-ru": "RU",
+        "on-click": "hyprctl switchxkblayout all next"
+    },
+    
+    "bluetooth": {
+        "format": " {status}",
+        "format-disabled": " off",
+        "format-off": " off",
+        "format-connected": " {device_alias}",
+        "tooltip-format": "{controller_alias} ({controller_address})",
+        "on-click": "/usr/bin/blueman-manager"
+    },
+    
+    "mpris": {
+        "format": "{player_icon} {dynamic}",
+        "format-paused": "{status_icon} <i>{dynamic}</i>",
+        "player-icons": {
+            "default": "",
+            "spotify": "",
+            "firefox": ""
+        },
+        "status-icons": {
+            "paused": ""
+        },
+        "max-length": 30
+    },
+    
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " Muted",
+        "format-icons": { "default": ["", "", ""] },
+        "on-click": "pavucontrol"
+    },
+  
+    "backlight": {
+        "format": " {percent}%",
+        "tooltip": false,
+        "on-scroll-up": "~/.config/waybar/scripts/brightness.sh up",
+        "on-scroll-down": "~/.config/waybar/scripts/brightness.sh down"
+    },
+
+
+    "network": {
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "  Connected",
+        "format-disconnected": "⚠  Disconnected",
+        "on-click": "nm-connection-editor"
+    },
+    
+    "cpu": { "format": " {usage}%", "on-click": "kitty -e btop" },
+    "memory": { "format": " {percentage}%", "on-click": "kitty -e btop" },
+    "temperature": { "critical-threshold": 80, "format": " {temperatureC}°C" },
+    "tray": { "icon-size": 18, "spacing": 10 },
+    "custom/separator": { "format": "│", "tooltip": false },
+    "custom/power": {
+        "format": "⏻",
+        "tooltip": false,
+        "on-click": "~/.config/waybar/scripts/power-menu.sh"
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+}
