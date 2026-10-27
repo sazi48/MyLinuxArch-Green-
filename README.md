@@ -13,10 +13,12 @@ The theme is designed in dark green tones.
 ---
 
 ![Screenshot1](Wallpaper/Desktop.jpg)
+
 *Чистый и стильный рабочий стол с панелью Waybar и зелеными обоями.*
 *A clean and stylish desktop with Waybar and green wallpaper.*
 
 ![Screenshot2](Wallpaper/PowerMenu.jpg)
+
 *Стильное кастомное меню выключения с иконками в тон темы.*
 *Stylish custom power menu with theme-matching icons.*
 
